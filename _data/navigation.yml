@@ -1,9 +1,9 @@
 main:
-  - title: "Posts"
-    url: /posts/
-  - title: "Categories"
+  - title: "Original Data Analysis"
+    url: /EDA/
+  - title: "Bias on the Preliminary Models"
     url: /categories/
-  - title: "Tags"
+  - title: "Improved Models with Mitigated Biases"
     url: /tags/
-  - title: "About"
+  - title: "Credits"
     url: /about/
