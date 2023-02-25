@@ -1,0 +1,16 @@
+current directory: /Users/jasonhuang/Desktop/flightpricebias/vendor/bundle/ruby/3.0.0/gems/unf_ext-0.0.8.2/ext/unf_ext
+/Users/jasonhuang/.rvm/rubies/ruby-3.0.0/bin/ruby -I /Users/jasonhuang/.rvm/rubies/ruby-3.0.0/lib/ruby/3.0.0 -r ./siteconf20230223-42269-cx2xi0.rb extconf.rb
+checking for -lstdc++... yes
+creating Makefile
+
+current directory: /Users/jasonhuang/Desktop/flightpricebias/vendor/bundle/ruby/3.0.0/gems/unf_ext-0.0.8.2/ext/unf_ext
+make "DESTDIR=" clean
+
+current directory: /Users/jasonhuang/Desktop/flightpricebias/vendor/bundle/ruby/3.0.0/gems/unf_ext-0.0.8.2/ext/unf_ext
+make "DESTDIR="
+compiling unf.cc
+linking shared-object unf_ext.bundle
+
+current directory: /Users/jasonhuang/Desktop/flightpricebias/vendor/bundle/ruby/3.0.0/gems/unf_ext-0.0.8.2/ext/unf_ext
+make "DESTDIR=" install
+/opt/homebrew/opt/coreutils/bin/ginstall -c -m 0755 unf_ext.bundle ./.gem.20230223-42269-66sgir

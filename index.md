@@ -1,12 +1,22 @@
 # Welcome!
 
 ## Introduction
-This repositary showcase how we investigate on how airline price discriminate on certain protected groups, including but not limit to:
+
+Price discrimination is the practice of setting significantly different prices for different groups of people for the same or similar commodity. This is specifically known as third-degree price discrimination. As a result, this can often lead to optimized profits for the seller, with a subset of buyers left paying higher prices. In the airline industry, there are several features associated with distance and the airports themselves that can affect the fare price as well as external forces such as market concentration and competitors. In turn, the **local demographics** of airport metro areas are features we hypothesize may distinguish significant pricing discrimination between majority and minority populations in airfare prices when comparing similarly comparable flights. Our goal is to identify potential factors in the dataset that may be causing biases in model implementations, mitigating these biases and ultimately developing fairer machine learning models for fairer airfare pricing.
+
+
+
+This website showcase how we investigate on how airline price discriminate on certain protected groups, including but not limit to:
 * Race
 * Income
 * Geo areas
 
+
+Our bias analysis and mitigation will be conducted with support of the AIF360 toolkit. In turn, we aim to develop a model that balances both accuracies as well as fairness between our classes.
+
+
 We understand that airfare pricing is a business decision that was driven by revenues. However, by investigating such factors, it may also drives airline's bottom line as the result could be useful for more attractive pricing for passengers.
+
 
 ## Methodology
 ### Dataset
