@@ -1,4 +1,4 @@
-# Welcome!
+Do you think there is always some kind of bias exist on flight tickets, we found out...
 
 ## Introduction
 
@@ -6,13 +6,34 @@ Price discrimination is the practice of setting significantly different prices f
 
 
 
-This website showcase how we investigate on how airline price discriminate on certain protected groups, including but not limit to:
+This website showcase our investigation on how airline price discriminate on certain <details open>
+<summary>proctected groups/features,</summary>
+<br>
+"protected groups" refer to groups of individuals who are considered to be historically disadvantaged or marginalized based on certain characteristics, such as race, gender, age, or ethnicity. These characteristics are often associated with systemic inequalities and discrimination in various aspects of society, including employment, education, healthcare, and criminal justice.
+</details>
+
+
+including but not limit to:
 * Race
+
+<details open>
+<summary><img src="https://penntoday.upenn.edu/sites/default/files/2021-06/iStock-1202344480.jpg" width="400" height="400"></summary>
+<br>
+Race: In our case, it would be the proportion of White Vs. Non White population in the local airport metro area.
+</details>
+
+<br>
 * Income
-* Geo areas
+
+<details open>
+<summary><img src="https://cdn.mos.cms.futurecdn.net/Xv3k77UcipignuVPtHsC43.jpg" width="400" height="400"></summary>
+<br>
+Income: In our case, it would be a categorical variable that determine the income of the local airport metro area (Low Vs. High). Low income is defined to be whether the median of the local income is less than or equal to the 25th quantile threshold found from a distribution of median incomes across all metro areas. And high income is defined to be whether the median of the local income is larger than or equal to the 75th quantile threshold found from a distribution of median incomes across all metro areas.
+    
+</details>
 
 
-Our bias analysis and mitigation will be conducted with support of the AIF360 toolkit. In turn, we aim to develop a model that balances both accuracies as well as fairness between our classes.
+Our bias analysis and mitigation will be conducted with support of the <a href="https://github.com/Trusted-AI/AIF360">AI Fairness 360 (AIF360)</a> toolkit. In turn, we aim to develop a model that balances both accuracies as well as fairness between our classes.
 
 
 We understand that airfare pricing is a business decision that was driven by revenues. However, by investigating such factors, it may also drives airline's bottom line as the result could be useful for more attractive pricing for passengers.
