@@ -19,7 +19,7 @@ description: Do you think there is always some kind of bias exist on flight tick
 twitter_username: username
 github_username: username
 minimal_mistakes_skin: default
-search: true
+search: false
 
 # Build settings
 markdown: kramdown
