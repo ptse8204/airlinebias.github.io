@@ -17,7 +17,6 @@ The Fare Per Mile variable is a value that is calculated as the ratio of ticket 
     sandbox="allow-same-origin allow-scripts"
     width="100%"
     height="100%"
-    scrolling="no"
     seamless="seamless"
     frameborder="0">
 </iframe>
