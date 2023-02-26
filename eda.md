@@ -31,6 +31,7 @@ Our scope of our data analysis spanned across over 5 years, from 2016 to until t
 [**Click here for details of the dataset used**](eda_pages/dataset.md)
 
 ## Airline Origin and Destination Survey (DB1B) Findings
+### Methodology Used
 ### General Statistics Findings
 [**Due to page constrains, click here for the general findings**](eda_pages/db1b_general.md)
 ### Trends and Results Discovered During the Analysis
