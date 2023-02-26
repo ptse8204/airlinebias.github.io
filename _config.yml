@@ -104,9 +104,17 @@ defaults:
       layout: single
       author_profile: true
 
-category_archive:
+model_without_mitigation:
   type: liquid
   path: /categories/
-tag_archive:
+model_with_mitigation:
   type: liquid
   path: /tags/
+reference:
+  type: liquid
+  path: /reference/
+eda:
+  type: liquid
+  path: /eda/
+
+
