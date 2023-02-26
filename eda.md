@@ -18,8 +18,10 @@ We also found that most people are purchasing the median fare, rather than the h
 * [Airline Origin and Destination Survey (DB1B) by the _Bureau of Transportation Statistics_](https://www.transtats.bts.gov/Tables.asp?QO_VQ=EFI&QO_anzr=Nv4yv0r%FDb4vtv0%FDn0q%FDQr56v0n6v10%FDf748rB%FD%FLQOEO%FM&QO_fu146_anzr=b4vtv0%FDn0q%FDQr56v0n6v10%FDf748rB)
 * [Air Carrier Statistics (Form 41 Traffic)- All Carriers (T-100) (US only segment) by the _Bureau of Transportation Statistics_](https://www.transtats.bts.gov/Tables.asp?QO_VQ=EEE&QO_anzr=Nv4%FDPn44vr4%FDf6n6v56vp5%FD%FLS14z%FDHE%FDg4nssvp%FM-%FDNyy%FDPn44vr45&QO_fu146_anzr=Nv4%FDPn44vr45)
 * [Median Household Income and Demographics per Metropolitian Area by the _US Census Bureau_](https://www.census.gov/)
-[Click here for details of the dataset used](eda_pages/dataset.md)
 
-## DB1B Findings
+[**Click here for details of the dataset used**](eda_pages/dataset.md)
+
+## Airline Origin and Destination Survey (DB1B) Findings
 ### General Statistics Findings
-### Trends Discovered
+[**Due to page constrains, click here for the general findings**](eda_pages/db1b_general.md)
+### Trends and Results Discovered During the Analysis
