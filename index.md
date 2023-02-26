@@ -1,6 +1,6 @@
-### Do you think there is always some kind of bias exist on flight tickets, we found out...
+**Do you think there is always some kind of bias exist on flight tickets, we found out...**
 
-<img src="https://blog.asaptickets.com/wp-content/uploads/2018/09/Consolidated-airfares.png"></summary>
+<img src="https://blog.asaptickets.com/wp-content/uploads/2018/09/Consolidated-airfares.png">
 
 
 ## Introduction
@@ -43,14 +43,11 @@ Our bias analysis and mitigation will be conducted with support of the <a href="
 We understand that airfare pricing is a business decision that was driven by revenues. However, by investigating such factors, it may also drives airline's bottom line as the result could be useful for more attractive pricing for passengers.
 
 
-​
-​
 ## Methodology
 ### Dataset
-​
+
 We mainly use airline ticket and pricing data from the **Airline Origin and Destination Survey (DB1B)**. We decide to use such a dataset instead of web-scraping because the data point in the dataset represents the final/actual fare that customers pay for. The DB1B database is maintained by the United States Department of Transportation Bureau of Transportation Statistics. The <a href="https://www.transtats.bts.gov/tables.asp?QO_VQ=EFI&QO_anzr=Nv4yv0r">DB1B datasets</a> has data from 1993 to the 2nd Quarter of 2022, however, due to the constrain of our environment capabilities, we are only using the data **from 2018 to the most recent available record** in our project. 
-​
-​
+
 While the DB1B database does not include demographics such as race, age, or income, for our purposes, we are instead using **U.S. Census data** in order to get feature variables that describe the local populations of the origin airport metropolitan area and the destination airport metro area. By merging these two datasets, we are able to investigate the relationship between local population demographics and airline ticket prices.
 
 

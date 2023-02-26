@@ -1,8 +1,12 @@
 main:
-  - title: "Original Data Analysis"
-    url: /EDA/
-  - title: "Bias on the Preliminary Models"
+  - title: "Exploratory Data Analysis"
+    url: /eda/
+  - title: "Models Without Bias Mitigation"
     url: /categories/
-  - title: "Improved Models with Mitigated Biases"
+  - title: "Models With Bias Mitigation"
     url: /tags/
+  - title: "Reference"
+    url: /reference/
+
+
 
