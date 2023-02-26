@@ -4,4 +4,5 @@ What are the thoughts when you are purchasing an flight ticket? Did you felt tha
 
 We also found that most people are purchasing the median fare, rather than the highest fare or the lowest fare, as expected. These findings here helps aid our reasearch and model building the discover the bias related in the other sections.
 
-* [Datasets Used](eda_pages/dataset.md)
+# Datasets Used
+* Find the details of the dataset used [here](eda_pages/dataset.md)!
