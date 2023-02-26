@@ -2,7 +2,7 @@
 title: "Exploritory Data Analysis"
 excerpt: "Details of trends and results found in the datasets used in the project"
 sitemap: true
-permalink: /eda
+permalink: /eda.md
 ---
 
 # Introduction
