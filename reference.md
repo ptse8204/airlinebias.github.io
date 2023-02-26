@@ -1,5 +1,4 @@
 ---
-title: "reference"
 excerpt: "Details of papers reviewed in the project"
 sitemap: true
 permlink: /reference/
