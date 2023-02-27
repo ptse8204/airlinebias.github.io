@@ -31,7 +31,17 @@ Our scope of our data analysis spanned across over 5 years, from 2016 to until t
 [**Click here for details of the dataset used**](eda_pages/dataset.md)
 
 ## Airline Origin and Destination Survey (DB1B) Findings
-### Methodology Used
+### Methodology Used for Feature Engineering and Data Cleaning
 ### General Statistics Findings
 [**Due to page constrains, click here for the general findings**](eda_pages/db1b_general.md)
 ### Trends and Results Discovered During the Analysis
+
+## Air Carrier Statistics (T-100) Findings
+### Subset of Dataset Used
+In this dataset, we are only using the data that is a passenger flight, and filter the dataset using the code that we created in the [`t100.py` module](https://github.com/ptse8204/airlinedatabias/blob/main/src/t100.py). The code also generates statistics a key statistics that we used for our other models – `LOAD_FACTOR`, defined as the ratio of total of passgeners count and total seat count.
+### Trends and Results Discovered During the Analysis
+
+## US Census Findings
+### Subset of Dataset Used
+For simplicity, we only used the 2022 data of the Median Household Income and Demographics per Metropolitian Area. The main reason is there is lack of significant difference between the protected groups as a results between this years. As both racial composition and income demographic in the US did not signifcantly shift during the fiver years of our analysis between the metropolitian areas, as low-income and highly racial intergrated areas remain the with the same subset of areas.
+### Methodology Used for Feature Engineering and Data Cleaning
