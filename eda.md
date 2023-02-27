@@ -26,7 +26,7 @@ Our scope of our data analysis spanned across over 5 years, from 2016 to until t
 ## Datasets Used
 * [Airline Origin and Destination Survey (DB1B) by the _Bureau of Transportation Statistics_](https://www.transtats.bts.gov/Tables.asp?QO_VQ=EFI&QO_anzr=Nv4yv0r%FDb4vtv0%FDn0q%FDQr56v0n6v10%FDf748rB%FD%FLQOEO%FM&QO_fu146_anzr=b4vtv0%FDn0q%FDQr56v0n6v10%FDf748rB)
 * [Air Carrier Statistics (Form 41 Traffic)- All Carriers (T-100) (US only segment) by the _Bureau of Transportation Statistics_](https://www.transtats.bts.gov/Tables.asp?QO_VQ=EEE&QO_anzr=Nv4%FDPn44vr4%FDf6n6v56vp5%FD%FLS14z%FDHE%FDg4nssvp%FM-%FDNyy%FDPn44vr45&QO_fu146_anzr=Nv4%FDPn44vr45)
-* [Median Household Income and Demographics per Metropolitian Area by the _US Census Bureau_](https://www.census.gov/)
+* [Median Household Income and Racial Demographics per Metropolitian Area by the _US Census Bureau_](https://www.census.gov/)
 
 [**Click here for details of the dataset used**](eda_pages/dataset.md)
 
@@ -43,5 +43,13 @@ In this dataset, we are only using the data that is a passenger flight, and filt
 
 ## US Census Findings
 ### Subset of Dataset Used
-For simplicity, we only used the 2022 data of the Median Household Income and Demographics per Metropolitian Area. The main reason is there is lack of significant difference between the protected groups as a results between this years. As both racial composition and income demographic in the US did not signifcantly shift during the fiver years of our analysis between the metropolitian areas, as low-income and highly racial intergrated areas remain the with the same subset of areas.
+For simplicity, we only used the 2022 data of the Median Household Income and Racial Demographics per Metropolitian Area. The main reason is there is lack of significant difference between the protected groups as a results between this years. As both racial composition and income demographic in the US did not signifcantly shift during the fiver years of our analysis between the metropolitian areas, as low-income and highly racial intergrated areas remain the with the same subset of areas.
 ### Methodology Used for Feature Engineering and Data Cleaning
+#### Connecting the US Census Bureau Data to Bureau of Transportation Statistics Data
+As both dataset are not directly linked together, as they lacked a common variable between them. We decided to manually inspect and use `CityMarketID` of the _Bureau of Transportation Statistics_ to link with Statistical Metropolitain Areas defined by the _US Census Bureau_. As shown in [city_id_census.csv](https://github.com/ptse8204/airlinedatabias/blob/main/lookup/city_id_census.csv), we have successfully linked over 750 cities (which a usual DB1B set contains roughly 780 of them) by using this method to perform our analysis.
+#### Median Household Income Trends and Results Discovered During the Analysis
+Histogram of low and high income groups (may include location if time permits)
+#### Racial Demographics Fearture Engineering
+From the dataset, in order to identitfy a protected group and a privillage group, we decided to use colored population ratio of the total population to evaluate such.
+(histogram of such feature)
+(mean, mode, median)
