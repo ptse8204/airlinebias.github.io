@@ -1,5 +1,5 @@
 ---
-title: "Exploritory Data Analysis"
+title: "Exploratory Data Analysis"
 excerpt: "Details of trends and results found in the datasets used in the project"
 sitemap: true
 permlink: /eda/
