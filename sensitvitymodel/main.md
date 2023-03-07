@@ -11,7 +11,11 @@ This model is a model that runs based on 2 assumptions:
 
 ## Initial Model and Results
 The initial model of such a prediction runs extremely well, our first initial model uses sci-kit learn's linear regression (`sklearn.linear_model.LinearRegression`), and train based on the following parameters below:
-
+### Predictor
+|Columns Used|Detail|Processing Method|
+|---|---|---|
+|OriginCityMarketIDCoupon|Flight Segment Origin Market Area (e.g.: LAX and SNA would be in Los Angeles Market Area), defined by USDOT [here](https://www.transtats.bts.gov/FieldInfo.asp?Svryq_Qr5p=b4vtv0%FDNv42146%FP%FDPv6B%FDZn4xr6%FDVQ.%FDPv6B%FDZn4xr6%FDVQ%FDv5%FDn0%FDvqr06vsvpn6v10%FD07zor4%FDn55vt0rq%FDoB%FDhf%FDQbg%FD61%FDvqr06vsB%FDn%FDpv6B%FDzn4xr6.%FD%FDh5r%FD6uv5%FDsvryq%FD61%FDp1051yvqn6r%FDnv421465%FD5r48v0t%FD6ur%FD5nzr%FDpv6B%FDzn4xr6.&Svryq_gB2r=a7z&Y11x72_gnoyr=Y_PVgl_ZNeXRg_VQ&gnoyr_VQ=FLM&flf_gnoyr_anzr=g_QOEO_Pbhcba&fB5_Svryq_anzr=beVTVa_PVgl_ZNeXRg_VQ)|`sklearn.preprocessing.OneHotEncoder`|
+|DestCityMarketID|Flight Segment Destination Market Area (e.g.: LAX and SNA would be in Los Angeles Market Area), defined by USDOT [here](https://www.transtats.bts.gov/FieldInfo.asp?Svryq_Qr5p=b4vtv0%FDNv42146%FP%FDPv6B%FDZn4xr6%FDVQ.%FDPv6B%FDZn4xr6%FDVQ%FDv5%FDn0%FDvqr06vsvpn6v10%FD07zor4%FDn55vt0rq%FDoB%FDhf%FDQbg%FD61%FDvqr06vsB%FDn%FDpv6B%FDzn4xr6.%FD%FDh5r%FD6uv5%FDsvryq%FD61%FDp1051yvqn6r%FDnv421465%FD5r48v0t%FD6ur%FD5nzr%FDpv6B%FDzn4xr6.&Svryq_gB2r=a7z&Y11x72_gnoyr=Y_PVgl_ZNeXRg_VQ&gnoyr_VQ=FLM&flf_gnoyr_anzr=g_QOEO_Pbhcba&fB5_Svryq_anzr=beVTVa_PVgl_ZNeXRg_VQ)|`sklearn.preprocessing.OneHotEncoder`|
 
 ## Bias Mitagation on Initial Model
 
