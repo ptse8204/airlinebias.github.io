@@ -12,7 +12,7 @@ This model is a model that runs based on 2 assumptions:
 - Airlines will always offers a higher fare if possible
 
 ## Initial Model and Results
-The initial model of such a prediction runs extremely well, our first initial model uses sci-kit learn's linear regression (`sklearn.linear_model.LinearRegression`), and train based on the following parameters below:
+The initial model of such a prediction runs extremely well, our first initial model uses sci-kit learn's linear regression (`sklearn.linear_model.LinearRegression`), and LightGBM's (`lightgbm.LGBMRegressor`). Since the large scale of the dataset, we decided the initial model would only train a small subset that is randomly selected from 2018 Q2, and test on another subset of the same quarter. We believe such an approach to test and train our model would appropiate during our initial stage, as we are only finding ways to see what model approach and variable would be a best predictor. We found the best model is trained based on the following parameters below:
 ### Predictor
 |Columns Used|Detail|Processing Method|
 |---|---|---|
@@ -20,6 +20,10 @@ The initial model of such a prediction runs extremely well, our first initial mo
 |DestCityMarketID|Flight Segment Destination Market Area (e.g.: LAX and SNA would be in Los Angeles Market Area), defined by USDOT [here](https://www.transtats.bts.gov/FieldInfo.asp?Svryq_Qr5p=b4vtv0%FDNv42146%FP%FDPv6B%FDZn4xr6%FDVQ.%FDPv6B%FDZn4xr6%FDVQ%FDv5%FDn0%FDvqr06vsvpn6v10%FD07zor4%FDn55vt0rq%FDoB%FDhf%FDQbg%FD61%FDvqr06vsB%FDn%FDpv6B%FDzn4xr6.%FD%FDh5r%FD6uv5%FDsvryq%FD61%FDp1051yvqn6r%FDnv421465%FD5r48v0t%FD6ur%FD5nzr%FDpv6B%FDzn4xr6.&Svryq_gB2r=a7z&Y11x72_gnoyr=Y_PVgl_ZNeXRg_VQ&gnoyr_VQ=FLM&flf_gnoyr_anzr=g_QOEO_Pbhcba&fB5_Svryq_anzr=beVTVa_PVgl_ZNeXRg_VQ)|`sklearn.preprocessing.OneHotEncoder`|
 |RPCarrier|Reporting Carrier Code, shown [here](https://www.transtats.bts.gov/FieldInfo.asp?Svryq_Qr5p=er2146v0t%FDPn44vr4%FDP1qr&Svryq_gB2r=Pun4&Y11x72_gnoyr=Y_PNeeVRef&gnoyr_VQ=FLM&flf_gnoyr_anzr=g_QOEO_Pbhcba&fB5_Svryq_anzr=eRcbegVaT_PNeeVRe)|`sklearn.preprocessing.OneHotEncoder`|
 |RoundTrip|Boolean Round Trip Indicator (1=Yes)|`sklearn.preprocessing.OneHotEncoder`|
+|FarePerMile|Itinerary Fare Per Miles Flown in Dollars (ItinFare/MilesFlown)|`sklearn.preprocessing.StandardScaler`|
+|CouponDistance|Segment Distance In Miles|`sklearn.preprocessing.StandardScaler`|
+|MilesFlown|Itinerary Miles Flown (Track Miles)|`sklearn.preprocessing.StandardScaler`|
+|LOAD_FACTOR|Ratio of Passenger Count and Seat Count from T-100 dataset|`sklearn.preprocessing.StandardScaler`|
 
 
 ## Bias Mitagation on Initial Model
