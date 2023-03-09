@@ -1,11 +1,9 @@
 ---
-title: "Dataset Used"
-excerpt: ""
+title: "Price Sensitivity Model"
+excerpt: "The price sensitivity model is a model that predict on a scale from 0-1 to showcase whether the price would be offered. This is a model based on using the distribution (CDF) of the airfare of a given city-pair origin and destination and the carrier from the DB1B dataset. "
 sitemap: true
 layout: single
 ---
-
-# Price Sensitivity Model
 
 ## Introduction
 The price sensitivity model is a model that predict on a scale from 0-1 to showcase whether the price would be offered. This is a model based on using the distribution (CDF) of the airfare of a given city-pair origin and destination and the carrier from the DB1B dataset. The CDF serve as an indicator of whether a given airfare would appear to indicate how sensitive a given fare is to the stakeholders (Airline and Passengers), as it is able to capture the probability of whether a given ticket would be valid.
