@@ -7,7 +7,7 @@ layout: single
 
 ## Bias Mitigated Model Development Summary
 
-<img src="/assets/Bias_mitigation.png">
+<img src="../assets/Bias_mitigation.png">
 
 
 ## Metrics Explaination:
@@ -30,4 +30,11 @@ We will evaluate our bias-mitigated models using various fairness metrics provid
 
 
 * **Theil Index (TI)**: It is the generalized entropy index with alpha = 1. It measures an entropic "distance" the population is away from the "ideal" egalitarian state. 0 will indicate perfect equality, and 1 will indicate maximum inequality. Since the value is not exactly 0, the metric reveals at least some level of unfairness. 
+
+## FarePerMile Results:
+
+<img src="../assets/images/FPM_Table_Results.png">
+
+
+
 
