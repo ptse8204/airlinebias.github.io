@@ -7,7 +7,7 @@ layout: single
 
 ## Bias Mitigated Model Development Summary
 
-<img src="assets/Bias_mitigation.png">
+<img src="/assets/Bias_mitigation.png">
 
 
 ## Metrics Explaination:
