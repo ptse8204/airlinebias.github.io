@@ -12,13 +12,13 @@ Each grouping has thier own downsides: passengers would expand out tickets which
 
 What we ultimately decided was that across each type of grouping, the bias metrics should ideally all be relatively fair. In order to measure how fair models are assigning outcomes, we decided to use disparate impact, which measures probability of favorable outcome for the unprivileged group divided by favorable outcome for the priviliged group. The ideal disparate impact is 1.0, where the favorable outcome is the same probability 
 
-# Passenger Level
+### Passenger Level
 When looking at the passenger-level and breaking down passangers by distance they flew, the disparate impact for each distance group was consistently around 0.98, which is considered incredibly fair. 
 
-# Ticket Level
+### Ticket Level
 When looking at the ticket-level, models gave a disparate impact of around 0.97, which is also considered fair.
 
-# Flight Path Level
+### Flight Path Level
 When looking at the flight path-level, models gave a disparate impact of 1.24, which actually means that the unpriviliged group actually has a higher chance of a favorable outcome. This can be due to many factors, like lower pricing due to having lower socioeconomic status to afford the pricing. However, since the disparate impact is more unbalanced, we decided to use this level to mitigate the bias so that we can see how the disparate impact changes with mitigation.
 
 
