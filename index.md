@@ -122,6 +122,8 @@ We would also want to dedicate this section to thank you the continous support o
     * Meira Gilbert
 * UCSD: 
     * Prof. David Danks
+## Github Repo for codes
+[Click here!](https://github.com/ptse8204/airlinedatabias)
 
 ## Notes
 We will keep updating the website alongside with our progress.
