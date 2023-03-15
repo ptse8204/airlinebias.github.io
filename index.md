@@ -41,6 +41,8 @@ We understand that airfare pricing is a business decision that was driven by rev
 </details>
 
 ## Methodology
+![Current Progress made in the project](https://user-images.githubusercontent.com/88422737/225416617-1dcfe519-b07f-40b7-ab08-0986cf57910d.png)
+
 <details close>
     <summary> Dataset used</summary>
     
