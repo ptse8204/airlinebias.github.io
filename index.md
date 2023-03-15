@@ -48,7 +48,7 @@ While the DB1B database does not include demographics such as race, age, or inco
 <details close>
     <summary> Hypothesis</summary>
 There is a significant difference between flight fares for privileged and unprivileged classes. (classes determined by race (white and non-white), and income (high and low) of the local airport metro area population).
-
+</details>
 
 <details close>
     <summary> Main investigative objectives </summary>
@@ -80,15 +80,17 @@ We aim our investigation (mainly) in 2 directions:
 * Price Sensitivity Model
 * FareClass Classifying Model
 </details>
+
 ## Credits
-<summary> Team Members </summary>
+### Team Members
 * Edwin Tse
 * Garrick Su
 * Joseph Perez
 * Maricela Vasquez
 * Qixi Huang
-</details>
-We would also want to use this section to thank you the continous support of our mentors:
+### Mentors
+We would also want to dedicate this section to thank you the continous support of our mentors:
+
 * Deloitte: 
     * Rasmus Nielsen
     * Jeffry Liu
