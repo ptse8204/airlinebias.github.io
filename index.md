@@ -108,6 +108,8 @@ We aim our investigation (mainly) in 2 directions:
 * Joseph Perez
 * Maricela Vasquez
 * Qixi Huang
+
+
 ### Mentors
 We would also want to dedicate this section to thank you the continous support of our mentors:
 
