@@ -1,6 +1,6 @@
 ---
 title: "Models without Mitigation"
-permalink: /models/
+permalink: /model_without_mitigation/
 layout: single
 ---
 
