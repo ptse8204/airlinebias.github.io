@@ -37,4 +37,8 @@ We will evaluate our bias-mitigated models using various fairness metrics provid
 
 From our results, we can see that random forest classifiers has worse accuracy compared to logistic regression, but is more fair initially. After applying Reweighing, we can see how our disparate impact reaches near ideal 1. Overall, Logistic Regression with Reweighing has the best results, as it has the highest accuracy (other than using no mitigation), best Disparate Impact and best Statistical Parity Difference. However, we can see there are some tradeoffs with using other options as it has one of the worse Equal Odds Difference and Theil Index
 
+## FareClass Results
 
+<img src="../assets/images/FPM_Table_Results.png">
+
+temp
