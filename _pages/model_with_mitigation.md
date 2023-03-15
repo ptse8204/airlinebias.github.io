@@ -39,6 +39,6 @@ From our results, we can see that random forest classifiers has worse accuracy c
 
 ## FareClass Results
 
-<img src="../assets/images/fareclass_reults.png">
+<img src="../assets/images/fareclass_results.png">
 
 The Disparate Impact of 1.2261 on the model prior to any mitigation methos suggests a fair model from the vary beginning. Now the focus would be to see how the Reweighing will improve the fairness of the model. After applying the preprocessing technique of Reweighing, we see the model fairness improves sightly including the balaced accuracy of the model. We see disparate impact reducing to get closer to the ideal value of 1 and equal opportunity difference and theil index reducing from 0.1957 to 0.059 and 0.1542 to 0.1440 respectively.  
