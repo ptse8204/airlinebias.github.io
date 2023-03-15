@@ -42,7 +42,7 @@ We understand that airfare pricing is a business decision that was driven by rev
 
 ## Methodology
 ![Current Progress made in the project](https://user-images.githubusercontent.com/88422737/225416617-1dcfe519-b07f-40b7-ab08-0986cf57910d.png)
-* All Progress made in the project currently, shown in a flow chart*
+*All Progress made in the project currently, shown in a flow chart*
 
 <details close>
     <summary> Dataset used</summary>
