@@ -1,4 +1,4 @@
-**Do you think there is always some kind of bias exist on flight tickets, we found out...**
+**Do you think some kind of bias exists on flight tickets, we found out...**
 
 <img src="https://blog.asaptickets.com/wp-content/uploads/2018/09/Consolidated-airfares.png">
 
