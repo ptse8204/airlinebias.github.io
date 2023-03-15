@@ -1,7 +1,8 @@
+<img src="https://blog.asaptickets.com/wp-content/uploads/2018/09/Consolidated-airfares.png">
+
 **After the pandemic, airfare prices skyrocketed in a level unseen before. You may question yourself, is there more than just supply and demand involve?** 
 
 **Our project and our initial report provides a couple insights. Discover what role does bias and discrimination plays in your flight ticket with sections below.**
-<img src="https://blog.asaptickets.com/wp-content/uploads/2018/09/Consolidated-airfares.png">
 
 
 ## Initial Report
@@ -42,6 +43,8 @@ We understand that airfare pricing is a business decision that was driven by rev
 ## Methodology
 <details close>
     <summary> Dataset used</summary>
+    
+**[Click here for the dataset page](https://ptse8204.github.io/flightpricebias/eda/#datasets-used)**
 
 We mainly use airline ticket and pricing data from the **Airline Origin and Destination Survey (DB1B)**. We decide to use such a dataset instead of web-scraping because the data point in the dataset represents the final/actual fare that customers pay for. The DB1B database is maintained by the United States Department of Transportation Bureau of Transportation Statistics. The <a href="https://www.transtats.bts.gov/tables.asp?QO_VQ=EFI&QO_anzr=Nv4yv0r">DB1B datasets</a> has data from 1993 to the 2nd Quarter of 2022, however, due to the constrain of our environment capabilities, we are only using the data **from 2018 to the most recent available record** in our project. 
 
@@ -55,33 +58,44 @@ There is a significant difference between flight fares for privileged and unpriv
 
 <details close>
     <summary> Main investigative objectives </summary>
+    
 We aim our investigation (mainly) in 2 directions:
 * Investigate whether there is a price discrepancy in protected groups on an existing dataset
 * Feed the data onto our custom build models, and see whether the model would generate results that showcase strong bias: especially models that are extremely accurate, and have a hard time correctly identifying areas that have a strong influence on protected groups.
+
 </details>
     
 ## Goals and Outcomes
 <details close>
     <summary> Goals </summary>
+    
 * Identify potential bias, if any, through EDA and model development process.
 * Using the <a href="https://github.com/Trusted-AI/AIF360">AIF360</a> toolkit, compare results for models with and without bias mitigation. Identify feature importance and improvement areas for future models
 * Using various accuracy measurements and bias mitigation techniques, Create and evaluate a model that is both accurate and unbiased. 
 * Since we are using airfare data from 2016 to 2022, we also want to discover if there is any trend shift in airfare pre-pandemic and post-pandemic. And whether such a trend shift correlates with any changes in model fairness.
+    
 </details>
     
 <details close>
     <summary> Outcomes </summary>
+    
+**[Click here for the models page](https://ptse8204.github.io/flightpricebias/models)**
+    
 * An thorough understanding of current problems in flight ticket price setting applications.   
 * An unbiased model for estimating the fair price that customers should pay. 
     * Price Sensitivity Model
 * An indicator allows consumers to know whether they are price discriminated against and whether they are paying the fair price. 
     * High Fare Indicator Model
+
 </details>
 <details close>
 <summary> Models Developed </summary>
+    
+**[Click here for the models page](https://ptse8204.github.io/flightpricebias/models)**
 * High Fare Indicator Model
 * Price Sensitivity Model
 * FareClass Classifying Model
+    
 </details>
 
 ## Credits
