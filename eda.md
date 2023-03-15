@@ -35,6 +35,26 @@ Our scope of our data analysis spanned across over 5 years, from 2016 to until t
 
 ## Airline Origin and Destination Survey (DB1B) Findings
 ### Methodology Used for Feature Engineering and Data Cleaning
+<details close>
+  <summary>Processing the DB1B Dataset</summary>
+ 
+The original Ticket in the DB1B dataset records information on the itinerary level. Since one itinerary might have multiple flights and destinations depending on whether it is a round trip or has multiple stops along the way. Therefore, we merge the Ticket dataset with the Market/Coupon dataset on itinerary ID, and it allows us to look closer into ticket information on an individual flight level. On average for each quarter the combined dataset has around 6 million rows and 26 useful features after we exclude other redundant columns, where each row represents a ticket and its associated information. Details of the columns and variables are available on the project website.
+
+Since the DB1B dataset is build on the ticket level, meaning that the ticket could have segments that represents either be a one-way, a round-trip or a muilt-destination ticket. Therefore, there is not a clearly define destination. We decided to use observe the destination in dataset in based on various assumptions shown below, which are also implemented in our `sparkmanager.py`:
+|Assumptions|Method name in module|Resulting dataset size (in rows)|
+|---|---|---|
+|The last destination is the real destination|`default`|98898392 (total amount of tickets)|
+|The median point is the real destination|`midpoint`|98898392 (total amount of tickets)|
+|Each segment should be treated separately|`segment`|247175573 (all avaiable rows in the dataset)|
+
+After our data wrangling work, we immediately found the default approach is problematic because over 60% of the tickets are considered roundtrips. As a result, over 60% of tickets using such an approach results in the same origin and destination. The median approach shows some promising results, however it also means it is losing a lot of information that could be able to be represented in the segments. Therefore, after our experiment on the three approaches, we decided to treat each segment as an individual ticket in our future analysis as it would keep the most information intact.
+
+</details>
+
+<details close>
+  <summary>CPI Adjustments</summary>
+  To further perform a better and more accurate analysis, we also used the cpi module in Python to change all of our prices into 2022 prices from their respective years. The prices shown below the EDA section are the original number of prices, unless specifically stated of using the cpi adjusted 2022 prices. 
+ </details>
 ### General Statistics Findings
 [**Due to page constrains, click here for the general findings**](eda_pages/db1b_general.md)
 ### Trends and Results Discovered During the Analysis
