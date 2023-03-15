@@ -1,10 +1,8 @@
 main:
   - title: "Exploratory Data Analysis"
     url: /eda/
-  - title: "Models Without Bias Mitigation"
+  - title: "Models"
     url: /models/
-  - title: "Models With Bias Mitigation"
-    url: /mitigatedmodels/
   - title: "Reference"
     url: /reference/
 
