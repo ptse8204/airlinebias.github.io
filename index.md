@@ -1,11 +1,11 @@
 **After the pandemic, airfare prices skyrocketed in a level unseen before. You may question yourself, is there more than just supply and demand involve?** 
 
 **Our project and our initial report provides a couple insights. Discover what role does bias and discrimination plays in your flight ticket with sections below.**
+<img src="https://blog.asaptickets.com/wp-content/uploads/2018/09/Consolidated-airfares.png">
+
 
 ## Initial Report
-[Click here!](DSC180B Report.pdf)
-
-<img src="https://blog.asaptickets.com/wp-content/uploads/2018/09/Consolidated-airfares.png">
+[Click here!](http://ptse8204.github.io/flightpricebias/DSC180B_Report.pdf)
 
 
 ## Introduction
