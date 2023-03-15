@@ -55,6 +55,7 @@ After our data wrangling work, we immediately found the default approach is prob
   <summary>CPI Adjustments</summary>
   To further perform a better and more accurate analysis, we also used the cpi module in Python to change all of our prices into 2022 prices from their respective years. The prices shown below the EDA section are the original number of prices, unless specifically stated of using the cpi adjusted 2022 prices. 
  </details>
+
 ### General Statistics Findings
 [**Due to page constrains, click here for the general findings**](eda_pages/db1b_general.md)
 ### Trends and Results Discovered During the Analysis
