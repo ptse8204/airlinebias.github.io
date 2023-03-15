@@ -41,5 +41,7 @@ To improve accuracy on the protected group compared to the privilege group, over
 
 Since the oversampling technique work reasonably well on the initial model, therefore, we decided to build our final model based on such an assumption.
 ## Final Model Created Based on Initial Model 
+Work in progress
 
 ## Demo of the Final Model
+Work in progress
