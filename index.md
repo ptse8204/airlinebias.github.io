@@ -5,11 +5,11 @@
 **Our project and our initial report provides a couple insights. Discover what role does bias and discrimination plays in your flight ticket with sections below.**
 
 
-## Initial Report
+# Initial Report
 [Click here!](http://ptse8204.github.io/flightpricebias/DSC180B_Report.pdf)
 
 
-## Introduction
+# Introduction
 <details close>
     <summary> What is Price Discrimination?</summary>
 Price discrimination is the practice of setting significantly different prices for different groups of people for the same or similar commodity. This is specifically known as third-degree price discrimination. As a result, this can often lead to optimized profits for the seller, with a subset of buyers left paying higher prices. In the airline industry, there are several features associated with distance and the airports themselves that can affect the fare price as well as external forces such as market concentration and competitors. In turn, the **local demographics** of airport metro areas are features we hypothesize may distinguish significant pricing discrimination between majority and minority populations in airfare prices when comparing similarly comparable flights. Our goal is to identify potential factors in the dataset that may be causing biases in model implementations, mitigating these biases and ultimately developing fairer machine learning models for fairer airfare pricing.
@@ -40,7 +40,7 @@ Our bias analysis and mitigation will be conducted with support of the <a href="
 We understand that airfare pricing is a business decision that was driven by revenues. However, by investigating such factors, it may also drives airline's bottom line as the result could be useful for more attractive pricing for passengers.
 </details>
 
-## Methodology
+# Methodology
 ![Current Progress made in the project](https://user-images.githubusercontent.com/88422737/225416617-1dcfe519-b07f-40b7-ab08-0986cf57910d.png)
 *All Progress made in the project currently, shown in a flow chart*
 
@@ -68,7 +68,7 @@ We aim our investigation (mainly) in 2 directions:
 
 </details>
     
-## Goals and Outcomes
+# Goals and Outcomes
 <details close>
     <summary> Goals </summary>
     
@@ -101,8 +101,8 @@ We aim our investigation (mainly) in 2 directions:
     
 </details>
 
-## Credits
-### Team Members
+# Credits
+## Team Members
 * Edwin Tse
 * Garrick Su
 * Joseph Perez
@@ -110,7 +110,7 @@ We aim our investigation (mainly) in 2 directions:
 * Qixi Huang
 
 
-### Mentors
+## Mentors
 We would also want to dedicate this section to thank you the continous support of our mentors:
 
 * Deloitte: 
@@ -122,7 +122,8 @@ We would also want to dedicate this section to thank you the continous support o
     * Meira Gilbert
 * UCSD: 
     * Prof. David Danks
-## Github Repo for codes
+
+# Github Repo
 [Click here!](https://github.com/ptse8204/airlinedatabias)
 
 ## Notes
