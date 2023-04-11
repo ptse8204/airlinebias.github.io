@@ -4,6 +4,13 @@
 
 **Our project and our initial report provides a couple insights. Discover what role does bias and discrimination plays in your flight ticket with sections below.**
 
+# Summary of outcomes of the project
+* Bias were found to be exist in pricing based on demographics in a city area. 
+    * There is statistical signicant differences between the airfare that the protected group and privillege group received.
+* Models are devloped to 
+    * help evaluate a purchase decision of an airfare.
+    * help eliminate discrimination of airfare while simutaneously maintain airline's financial positions.
+    * help provide information on whether an airfare would be valid, and how senstive are stakeholders towards an airfare.
 
 # Initial Report
 [Click here!](http://ptse8204.github.io/flightpricebias/DSC180B_Report.pdf)
@@ -26,6 +33,7 @@ including but not limit to:
 <img src="https://penntoday.upenn.edu/sites/default/files/2021-06/iStock-1202344480.jpg" width="400" height="400">
 <br>
 Race: In our case, it would be the proportion of White Vs. Non White population in the local airport metro area.
+
 
 * Income
 <img src="https://cdn.mos.cms.futurecdn.net/Xv3k77UcipignuVPtHsC43.jpg" width="400" height="400">
@@ -82,8 +90,9 @@ We aim our investigation (mainly) in 2 directions:
 <details close>
     <summary> Outcomes </summary>
     
-**[Click here for the models page](https://ptse8204.github.io/flightpricebias/models)**
+**(Click here for the models page)[https://ptse8204.github.io/flightpricebias/models]**
     
+* Biases found in both protected groups and privillege groups with statistical significance. 
 * An thorough understanding of current problems in flight ticket price setting applications.   
 * An unbiased model for estimating the fair price that customers should pay. 
     * Price Sensitivity Model
@@ -128,4 +137,4 @@ We would also want to dedicate this section to thank you the continous support o
 
 ## Notes
 We will keep updating the website alongside with our progress.
-Last update: March 15, 2023
+Last update: Apr 11, 2023
