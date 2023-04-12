@@ -37,8 +37,8 @@ Our scope of our data analysis spanned across over 5 years, from 2016 to until t
 ## Airline Origin and Destination Survey (DB1B) Findings
 ### Methodology Used for Feature Engineering and Data Cleaning
 <details close>
-  <summary>Processing the DB1B Dataset</summary>
- 
+  <summary><b>Processing the DB1B Dataset</b></summary>
+<br>
 The original Ticket in the DB1B dataset records information on the itinerary level. Since one itinerary might have multiple flights and destinations depending on whether it is a round trip or has multiple stops along the way. Therefore, we merge the Ticket dataset with the Market/Coupon dataset on itinerary ID, and it allows us to look closer into ticket information on an individual flight level. On average for each quarter the combined dataset has around 6 million rows and 26 useful features after we exclude other redundant columns, where each row represents a ticket and its associated information. Details of the columns and variables are available on the project website.
 
 Since the DB1B dataset is build on the ticket level, meaning that the ticket could have segments that represents either be a one-way, a round-trip or a muilt-destination ticket. Therefore, there is not a clearly define destination. We decided to use observe the destination in dataset in based on various assumptions shown below, which are also implemented in our `sparkmanager.py`:
@@ -75,7 +75,8 @@ After our data wrangling work, we immediately found the default approach is prob
 </details>
 
 <details close>
-  <summary>CPI Adjustments</summary>
+  <summary><b>CPI Adjustments</b></summary>
+  <br>
   To further perform a better and more accurate analysis, we also used the cpi module in Python to change all of our prices into 2022 prices from their respective years. The prices shown below the EDA section are the original number of prices, unless specifically stated of using the cpi adjusted 2022 prices. 
  </details>
 
