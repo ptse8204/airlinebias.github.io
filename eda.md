@@ -24,7 +24,8 @@ Our scope of our data analysis spanned across over 5 years, from 2016 to until t
   - Carriers defined as legacy carriers in our analysis are: American Airlines, Alaska Airlines, Delta Air Lines, United Airlines, Southwest Airlines, Jetblue, and Hawaiian Airlines.
   - Carriers defined as low-cost carriers in our analysis are: Frontier, Spirit and Allegiant Airlines.
 - No significant variance between quarters in years
-- Flight prices were relatively stable, even without factoring in inflation prior to the pandemic
+- Flight prices were relatively stable prior to the pandemic, even without factoring in inflation.
+- Strong difference between the pricing of the protected groups and privilleged groups shows there are at least degree of some price discrimination.
 
 ## Datasets Used
 * [Airline Origin and Destination Survey (DB1B) by the _Bureau of Transportation Statistics_](https://www.transtats.bts.gov/Tables.asp?QO_VQ=EFI&QO_anzr=Nv4yv0r%FDb4vtv0%FDn0q%FDQr56v0n6v10%FDf748rB%FD%FLQOEO%FM&QO_fu146_anzr=b4vtv0%FDn0q%FDQr56v0n6v10%FDf748rB)
