@@ -60,7 +60,9 @@ After our data wrangling work, we immediately found the default approach is prob
 ### General Statistics Findings
 [**Due to page constrains, click here for the general findings**](eda_pages/db1b_general.md)
 ### Trends and Results Discovered During the Analysis
-Page still in development, [check the report for the details](https://ptse8204.github.io/flightpricebias/DSC180B_Report.pdf)
+- [Discrimination in pricing found in based on race](eda_pages/race_discrimination.md)
+- Discrimination in pricing found in based on income
+Pages still in development, [check the report for the details](https://ptse8204.github.io/flightpricebias/DSC180B_Report.pdf)
 
 ## Air Carrier Statistics (T-100) Findings
 ### Subset of Dataset Used
